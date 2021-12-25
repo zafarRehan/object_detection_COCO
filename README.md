@@ -12,9 +12,9 @@ The COCO dataset consists of 80 classes of images (<a href="/labels.txt">View al
 
 
 <h3> Usage </h3>
-This repository has 2 files: 
-1. object_detection_image.py
-2. object_detection_video.py
+This repository has 2 files: <br/>
+1. object_detection_image.py <br/>
+2. object_detection_video.py <br/>
 
 Test Video: https://drive.google.com/file/d/1EPngtG-X4NCOoadeo1Fk556Yhejuvp5C/view?usp=sharing
 
