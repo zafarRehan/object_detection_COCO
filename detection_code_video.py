@@ -12,7 +12,7 @@ with open(filename, 'rt') as spt:
     classLabels = spt.read().rstrip('\n').split('\n')
     
     
-model.setInputSize(320, 320)
+model.setInputSize(320, 320)  #greater this value better the reults but slower. Tune it for best results
 model.setInputScale(1.0/127.5)
 model.setInputMean((127.5, 127.5, 127.5))
 model.setInputSwapRB(True)
@@ -21,7 +21,6 @@ model.setInputSwapRB(True)
 cap = cv2.VideoCapture('test_video.mp4')
 ret, frame = cap.read()
 
-#
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 video = cv2.VideoWriter('video.avi', fourcc, 25, (frame.shape[1], frame.shape[0]))  #25 is the frame rate of output video you can change it as required
 
@@ -32,7 +31,7 @@ while(True):
    
     ret, frame = cap.read()
 
-    classIndex, confidence, bbox = model.detect(frame , confThreshold=0.65)
+    classIndex, confidence, bbox = model.detect(frame , confThreshold=0.65)  #tune the confidence  as required
     if(len(classIndex) != 0):
         for classInd, boxes in zip(classIndex.flatten(), bbox):
             cv2.rectangle(frame, boxes, (255, 0, 0), 2)
@@ -44,7 +43,6 @@ while(True):
 
 
 #run these 3 lines when you close the video window OR when the video ends
-    
 cap.release()
 video.release()
 cv2.destroyAllWindows()
