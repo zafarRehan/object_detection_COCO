@@ -31,7 +31,7 @@ Change the 'your image path' in detection_code_image.py at line:23 to the path o
 Change the 'your image path' in detection_code_video.py at line: 21 to the path of your video to detect objects in your Video
 
 <h4> Example Input Video: </h4>
-<a href="https://drive.google.com/file/d/1EPngtG-X4NCOoadeo1Fk556Yhejuvp5C/view?usp=sharing"><img src="/output_thumb.png" width=500></a>
+<a href="https://drive.google.com/file/d/1EPngtG-X4NCOoadeo1Fk556Yhejuvp5C/view?usp=sharing"><img src="/input_video_thumb.png" width=500></a>
 
 <h4> Example Output Video: </h4>
 <a href="https://drive.google.com/file/d/1y52-GFJHX28FRxgSJZVlkGvQsnY8ML75/view?usp=sharing"><img src="/output_thumb.png" width=500></a>
