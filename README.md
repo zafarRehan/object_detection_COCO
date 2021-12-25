@@ -24,7 +24,7 @@ Change the 'your image path' in detection_code_image.py at line:23 to the path o
 <h4> Example Input Image: </h4>
 <img src="/test_image.png" width=500>
 <h4> Example Output Image: </h4>
-<img src="/test_outout.png" width=500>
+<img src="/test_output.png" width=500>
 
 <h3> Video </h3>
 
