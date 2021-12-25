@@ -16,7 +16,10 @@ This repository has 2 files:
 1. object_detection_image.py
 2. object_detection_video.py
 
+Test Video: https://drive.google.com/file/d/1EPngtG-X4NCOoadeo1Fk556Yhejuvp5C/view?usp=sharing
 
-<a href="https://drive.google.com/file/d/1EPngtG-X4NCOoadeo1Fk556Yhejuvp5C/view?usp=sharing"><img src="/videoThumb.PNG" width=350></a>
+
+
+<a href="https://drive.google.com/file/d/1y52-GFJHX28FRxgSJZVlkGvQsnY8ML75/view?usp=sharing"><img src="/videoThumb.PNG" width=350></a>
 
 [![Watch the video](/videoThumb.PNG)](https://youtu.be/vt5fpE0bzSY)
