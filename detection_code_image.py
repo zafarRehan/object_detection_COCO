@@ -1,6 +1,4 @@
 import cv2
-import matplotlib.pyplot as plt
-
 
 
 config_file = 'ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
@@ -14,7 +12,7 @@ with open(filename, 'rt') as spt:
     classLabels = spt.read().rstrip('\n').split('\n')
     
     
-model.setInputSize(320, 320)
+model.setInputSize(320, 320) #greater this value better the reults tune it for best output
 model.setInputScale(1.0/127.5)
 model.setInputMean((127.5, 127.5, 127.5))
 model.setInputSwapRB(True)
@@ -22,9 +20,7 @@ model.setInputSwapRB(True)
     
 img = cv2.imread('your image path')
 
-plt.imshow(img)     #original image
-
-classIndex, confidence, bbox = model.detect(img, confThreshold=0.55)
+classIndex, confidence, bbox = model.detect(img, confThreshold=0.5) #tune confThreshold for best results
 
 
 font = cv2.FONT_HERSHEY_PLAIN
