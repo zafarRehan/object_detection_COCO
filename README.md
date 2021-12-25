@@ -10,7 +10,6 @@ The COCO dataset consists of 80 classes of images (<a href="/labels.txt">View al
 
 You can download the test_video from:
 https://drive.google.com/file/d/1EPngtG-X4NCOoadeo1Fk556Yhejuvp5C/view?usp=sharing
-
 or you can use any video of your choice
 
 <h2> Usage </h2>
@@ -23,10 +22,9 @@ This repository has 2 files: <br/>
 Change the 'your image path' in detection_code_image.py at line:23 to the path of your image to detect objects in your Image
 
 <h4> Example Input Image: </h4>
-
-
+<img src="/test_image.png" width=500>
 <h4> Example Output Image: </h4>
-
+<img src="/test_outout.png" width=500>
 
 <h3> Video </h3>
 
