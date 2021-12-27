@@ -1,6 +1,6 @@
 # Object Detection
 
-This model is built on pre-trained MobileNet-SSD v3 model for Object Detection
+This repository uses pre-trained MobileNet-SSD v3 model for Object Detection
 https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API
 
 The model uses COCO dataset for training
