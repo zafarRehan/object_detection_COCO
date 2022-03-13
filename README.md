@@ -11,6 +11,8 @@ The COCO dataset consists of 80 classes of images (<a href="/labels.txt">View al
 You can download the test_video from: <br/>
 https://drive.google.com/file/d/1EPngtG-X4NCOoadeo1Fk556Yhejuvp5C/view?usp=sharing<br/>
 or you can use any video of your choice
+<h2> Required Libraries </h2>
+    pip install opencv-python
 
 <h2> Usage </h2>
 This repository has 2 files: <br/>
