@@ -12,8 +12,10 @@ You can download the test_video from: <br/>
 https://drive.google.com/file/d/1EPngtG-X4NCOoadeo1Fk556Yhejuvp5C/view?usp=sharing<br/>
 or you can use any video of your choice
 <h2> Required Libraries </h2>
-    pip install opencv-python
 
+    pip install opencv-python
+    
+</br>
 <h2> Usage </h2>
 This repository has 2 files: <br/>
 1. detection_code_image.py <br/>
